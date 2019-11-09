@@ -1,4 +1,4 @@
 .t-dialog {
-  --t.dialog\padding: var(--🌐spacing--lg);
+  --t-dialog\padding: var(--🌐spacing--lg);
   --t-dialog\width: calc(62.8% - 2 * var(--🌐spacing--sm));
 }
