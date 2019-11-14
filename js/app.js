@@ -61,7 +61,7 @@ const convertListIntoTable = (acc, value) => {
         <td>${start}</td>
         <td>${end}</td>
         <td>${breakTime}</td>
-        <td>${hours}</td>
+        <td>${hours}<span class="t-editContainer" style="position: absolute;width: 220px;text-align: right;right: 0;display: none;"><button class="t-removeEntry">remove</button><button class="t-editEntry">edit</button></span></td>
       </tr>`;
 }
 
